@@ -67,6 +67,7 @@ body, html {
   overflow: hidden;
   padding-left: 5%;
   padding-right: 5%;
+  position: relative;
 }
 
 .hero-container::before {
@@ -75,7 +76,7 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 110%;
+  height: 100%; 
   background-image: url("/image/hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -120,6 +121,137 @@ body, html {
   background-color: #8dc0f6;
   color: #202020;
   border-radius: 7%;
+}
+
+.decs-container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative; 
+}
+
+.decs-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(10%);
+  width: 100%;
+  height: 100%; 
+  background-image: url("/image/desc.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.decs-content {
+  text-align: right;
+
+}
+
+.decs-title {
+  width: 700px;
+  font-size: 3.5rem;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+
+.decs-subtitle {
+  width: 700px;
+  font-size: 1.5rem;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+.aboutus-container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.aboutus-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-image: url("/image/aboutus.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.aboutus-content {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.aboutus-title {
+  width: 700px;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.aboutus-subtitle {
+  width: 700px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.aboutus-cta {
+  display: flex;
+  align-items: center;
+}
+
+.aboutus-cta a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #000000;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: background-color 0.3s ease;
+  border-radius: 7%;
+}
+
+.aboutus-cta a:hover {
+  background-color: #8dc0f6;
+  color: #202020;
+  border-radius: 7%;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.profile-item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.profile-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.profile-item p {
+  margin-bottom: 20px;
 }
 
 .key-container {

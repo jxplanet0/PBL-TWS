@@ -5,37 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: #353885; 
-    }
-    .login-container {
-      padding: 1rem; 
-      margin-top: -100px;
-    }
-    .login-container img.logo {
-      width: 200px; 
-      height: 200px; 
-    }
-    .login-container img {
-      width: 30px; 
-      height: 25px;
-    }
-    .login-container input {
-      margin-bottom: 20px;
-      color: white; 
-      background-color: black; 
-      border-color: white; 
-    }
-    .divider {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="/app/css/logsign.css"/>
 </head>
 <body>
-  <div class="container mt-3" style="background-image: url('../Logo/login.jpeg');background-size: cover; background-repeat: no-repeat;background-position: center; width:50%" >
-    <img src="../Logo/logo.png" alt="Logo" class="logo" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;">
+  <div class="container mt-3" style="background-image: url('/image/login.jpg');background-size: cover; background-repeat: no-repeat;background-position: center; width:50%" >
+    <img src="/image/logo.png" alt="Logo" class="logo" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;">
     <div class="row justify-content-center">
       <div class="col-md-5">
         <div class="login-container">
@@ -46,7 +20,7 @@
             <div class="form-group mx-auto">
               <div class="input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text"><img src="../Logo/user.jpg" alt="Username"></span>
+                  <span class="input-group-text"><img src="/image/user.jpg" alt="Username"></span>
                 </div>
                 <input type="text" class="form-control" placeholder="Username/Email">
               </div>
@@ -54,7 +28,7 @@
             <div class="form-group mx-auto">
               <div class="input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text"><img src="../Logo/password.png" alt="Password"></span>
+                  <span class="input-group-text"><img src="/image/password.png" alt="Password"></span>
                 </div>
                 <input type="password" class="form-control" placeholder="Password">
               </div>
@@ -65,7 +39,7 @@
             <span class="mx-1">Or</span>
           </div>
           <div class="text-center">
-            <img src="../Logo/google.png" alt="Google Logo">
+            <img src="/image/google.png" alt="Google Logo">
           </div>
           <div class="text-center mt-3">
             <p>Don’t have an account? <a href="signup.html">Sign Up</a></p>
