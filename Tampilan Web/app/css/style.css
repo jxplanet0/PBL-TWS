@@ -77,7 +77,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%; 
-  background-image: url("/image/hero.jpg");
+  background-image: url("/Tampilan Web/image/hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,10 +139,9 @@ body, html {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateX(10%);
   width: 100%;
   height: 100%; 
-  background-image: url("/image/desc.jpg");
+  background-image: url("/Tampilan Web/image/desc.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,6 +155,7 @@ body, html {
 
 .decs-title {
   width: 700px;
+  padding-right: 10%;
   font-size: 3.5rem;
   margin-left: 10rem;
   margin-bottom: 1rem;
@@ -163,6 +163,7 @@ body, html {
 
 .decs-subtitle {
   width: 700px;
+  padding-right: 10%;
   font-size: 1.5rem;
   margin-left: 10rem;
   margin-bottom: 2rem;
@@ -186,7 +187,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%; 
-  background-image: url("/image/aboutus.jpg");
+  background-image: url("/Tampilan Web/image/aboutus.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
