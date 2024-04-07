@@ -8,7 +8,6 @@ body, html {
 .logo {
   width: 150px;
   height: auto;
-  margin-left: 1rem;
 }
 
 .navbar {
@@ -349,4 +348,35 @@ body, html {
   background-color: #8dc0f6;
   color: #202020;
   border-radius: 7%;
+}
+
+.faq-container {
+  background-color: #C8E0FD;
+  display: flex;
+  align-items: top;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.faq-title {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 3%;
+}
+
+.faq-questions {
+  padding-right: 3%;
+}
+
+.footer {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  justify-items: center; 
+  flex-direction: column;
+  color: #777777;
+  background-color: #C8E0FD;
 }
