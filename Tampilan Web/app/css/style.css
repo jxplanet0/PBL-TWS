@@ -347,6 +347,74 @@ body, html {
   border-radius: 7%;
 }
 
+.search-container {
+  background-color: #f8f9fa;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.search-container h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #D4D4D4CC;
+}
+
+.filter-column {
+  margin-bottom: 20px;
+  max-width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.filter-label {
+  font-weight: bold;
+}
+
+.filter-options {
+  margin-top: 5px;
+}
+.btn-submit {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7bb0f0;
+  color: #000000;
+  font-weight: bold;
+}
+
+.laptop-details {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  display: flex;  
+  align-items: center;  
+}
+
+.laptop-details p {
+  margin-bottom: 0;
+}
+
+.search-result {
+  margin-bottom: 20px;
+}
+
+.laptop-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 5%; 
+}
+
 .faq-container {
   background-color: #C8E0FD;
   display: flex;
@@ -369,11 +437,11 @@ body, html {
 }
 
 .footer {
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  justify-items: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   color: #777777;
   background-color: #C8E0FD;
+  padding: 20px;
 }

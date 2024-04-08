@@ -57,6 +57,62 @@
           </nav>
       </div>
     </header>
+    <div class="search-container">
+      <h1 class="mb-4 text-center">Find the Perfect Laptop for Your Studies</h1>
+      <form class="search-bar" action="#" method="GET">
+        <input type="text" class="form-control mb-3" placeholder="Search for laptops...">
+      </form>
+      <div class="row justify-content-center">
+        <div class="col-md-3 filter-column">
+          <div class="filter-label">Brand</div>
+          <select class="custom-select filter-options">
+            <option selected>All</option>
+            <option value="1">Brand 1</option>
+            <option value="2">Brand 2</option>
+            <option value="3">Brand 3</option>
+          </select>
+        </div>
+        <div class="col-md-3 filter-column">
+          <div class="filter-label">RAM</div>
+          <select class="custom-select filter-options">
+            <option selected>All</option>
+            <option value="1GB">1GB</option>
+            <option value="2GB">2GB</option>
+            <option value="4GB">4GB</option>
+            <option value="8GB">8GB</option>
+            <option value="16GB">16GB</option>
+            <option value="32GB">32GB</option>
+            <option value="64GB">64GB</option>
+          </select>
+        </div>
+        <div class="col-md-3 filter-column">
+          <div class="filter-label">ROM</div>
+          <select class="custom-select filter-options">
+            <option selected>All</option>
+            <option value="32GB">32GB</option>
+            <option value="64GB">64GB</option>
+            <option value="128GB">128GB</option>
+            <option value="256GB">256GB</option>
+            <option value="512GB">512GB</option>
+            <option value="1TB">1TB</option>
+            <option value="2TB">2TB</option>
+          </select>
+        </div>
+        <div class="col-md-3 filter-column">
+          <div class="filter-label">Budget</div>
+          <select class="custom-select filter-options">
+            <option selected>All</option>
+            <option value="Under $500">Under $500</option>
+            <option value="$500 - $1000">$500 - $1000</option>
+            <option value="Above $1000">Above $1000</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block mt-3 btn-submit">Submit</button>
+    </div>
+    <div class="container mt-3">
+      <div id="searchResults"></div>
+    </div>
     <footer class="footer footer-expand-lg">
       <a href="/Tampilan Web/app/html/index.html">
         <img src="/Tampilan Web/image/tosiba.png" alt="Tosiba Logo" class="logo" style="width: 150px; height: auto;" />
