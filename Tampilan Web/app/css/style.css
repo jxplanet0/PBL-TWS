@@ -445,3 +445,19 @@ body, html {
   background-color: #C8E0FD;
   padding: 20px;
 }
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: transparent; 
+}
+
+#backToTopBtn img {
+  width: 40px; 
+  height: 40px; 
+}
+
