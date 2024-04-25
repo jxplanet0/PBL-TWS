@@ -19,6 +19,13 @@ $(document).ready(function () {
     }
   );
 });
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
 $(document).ready(function() {
   $('.btn-submit').on('click', function(event) {
     event.preventDefault(); 
