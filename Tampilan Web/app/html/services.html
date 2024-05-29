@@ -59,7 +59,7 @@
     </header>
     <div class="search-container">
       <h1 class="mb-4 text-center">Find the Perfect Laptop for Your Studies</h1>
-      <form class="search-bar" action="#" method="GET">
+      <!-- <form class="search-bar" action="#" method="GET">
         <input type="text" class="form-control mb-3" placeholder="Search for laptops...">
       </form>
       <div class="row justify-content-center">
@@ -76,26 +76,24 @@
           <div class="filter-label">RAM</div>
           <select class="custom-select filter-options">
             <option selected>All</option>
-            <option value="1GB">1GB</option>
-            <option value="2GB">2GB</option>
-            <option value="4GB">4GB</option>
-            <option value="8GB">8GB</option>
-            <option value="16GB">16GB</option>
-            <option value="32GB">32GB</option>
-            <option value="64GB">64GB</option>
+            <option value="1 GB">1GB</option>
+            <option value="2 GB">2GB</option>
+            <option value="4 GB">4GB</option>
+            <option value="8 GB">8GB</option>
+            <option value="16 GB">16GB</option>
+            <option value="32 GB">32GB</option>
+            <option value="64 GB">64GB</option>
           </select>
         </div>
         <div class="col-md-3 filter-column">
           <div class="filter-label">ROM</div>
           <select class="custom-select filter-options">
             <option selected>All</option>
-            <option value="32GB">32GB</option>
-            <option value="64GB">64GB</option>
-            <option value="128GB">128GB</option>
-            <option value="256GB">256GB</option>
-            <option value="512GB">512GB</option>
-            <option value="1TB">1TB</option>
-            <option value="2TB">2TB</option>
+            <option value="128 GB">128 GB</option>
+            <option value="256 GB">256 GB</option>
+            <option value="512 GB">512 GB</option>
+            <option value="1 TB">1 TB</option>
+            <option value="2 TB">2 TB</option>
           </select>
         </div>
         <div class="col-md-3 filter-column">
@@ -107,9 +105,54 @@
             <option value="Above $1000">Above $1000</option>
           </select>
         </div>
-      </div>
-      <button type="submit" class="btn btn-primary btn-block mt-3 btn-submit">Submit</button>
-    </div>
+      </div> -->
+      <form id="search-form" method="POST" action="/Tampilan Web/backend/searchlaptop.php">
+        <input type="text" class="form-control mb-3" placeholder="Cari laptop">
+        <div class="filter-options">
+          <select id="name-filter">
+            <option value="all">Name (Semua)</option>
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="Dell">Dell</option>
+            <option value="HP">HP</option>
+            <option value="Lenovo">Lenovo</option>
+          </select>
+          <select id="ram-filter">
+            <option value="all">RAM (Semua)</option>
+            <option value="4 GB">4 GB</option>
+            <option value="8 GB">8 GB</option>
+            <option value="16 GB">16 GB</option>
+            <option value="32 GB">32 GB</option>
+          </select>
+          <select id="storage_capacity-filter">
+            <option value="all">ROM (Semua)</option>
+            <option value="128 GB">128 GB</option>
+            <option value="256 GB">256 GB</option>
+            <option value="512 GB">512 GB</option>
+            <option value="1 TB">1 TB</option>
+            <option value="2 TB">2 TB</option>
+          </select>
+          <select id="processor_brand-filter">
+            <option value="all">CPU (Semua)</option>
+            <option value="Core i3">Core i3</option>
+            <option value="Core i5">Core i5</option>
+            <option value="Core i7">Core i7</option>
+          </select>
+          <select id="graphic-filter">
+            <option value="all">GPU (Semua)</option>
+            <option value="NVIDIA GeForce GTX 1050">NVIDIA GeForce GTX 1050</option>
+            <option value="NVIDIA GeForce GTX 1060">NVIDIA GeForce GTX 1060</option>
+            <option value="NVIDIA GeForce GTX 1070">NVIDIA GeForce GTX 1070</option>
+          </select>
+          <select id="price-filter">
+            <option value="all">Harga (Semua)</option>
+            <option value="5000000">Rp. 5.000.000</option>
+            <option value="7000000">Rp. 7.000.000</option>
+            <option value="9000000">Rp. 9.000.000</option>
+          </select>
+          <button type="submit" class="btn btn-primary btn-block mt-3 btn-submit">Submit</button>
+        </div>
+    </form>
     <div class="container mt-3">
       <div id="searchResults"></div>
     </div>
