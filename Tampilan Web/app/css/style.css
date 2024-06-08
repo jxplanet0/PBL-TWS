@@ -5,13 +5,35 @@ body, html {
   box-sizing: border-box;
 }
 
+.card {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
   width: 150px;
   height: auto;
 }
 
 .navbar {
-  position: sticky;
+  position: static;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -74,7 +96,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%; 
-  background-image: url("/Tampilan Web/image/hero.jpg");
+  background-image: url("../image/hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,7 +160,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%; 
-  background-image: url("/Tampilan Web/image/desc.jpg");
+  background-image: url("../image/desc.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +206,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%; 
-  background-image: url("/Tampilan Web/image/aboutus.jpg");
+  background-image: url("../image/aboutus.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -461,3 +483,11 @@ body, html {
   height: 40px; 
 }
 
+.mb-4, .my-4 {
+  /*margin-bottom: 1.5rem!important;*/
+  background-color: #87CEEB;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1px;
+  border-radius: 5px;
+}
