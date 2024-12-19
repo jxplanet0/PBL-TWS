@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Filter</title>
+</head>
+<body>
+    <h1>Filter Laptops</h1>
+    <form action="D:/xampp/htdocs/Kuliah/TWS/data-2.php" method="GET">
+        <label for="processor_name">Processor Name:</label>
+        <select name="processor_name" id="processor_name">
+            <option value="">Select Processor</option>
+            <option value="Core i9">Core i9</option>
+            <option value="Ryzen 7 Octa Core">Ryzen 7 Octa Core</option>
+            <option value="Core i5">Core i5</option>
+            <option value="Core i7">Core i7</option>
+            <option value="Celeron Dual Core">Celeron Dual Core</option>
+            <option value="Pentium Silver">Pentium Silver</option>
+            <option value="Athlon Dual Core">Athlon Dual Core</option>
+            <option value="Ryzen 7 Dual Core">Ryzen 7 Dual Core</option>
+            <option value="Ryzen 3 Quad Core">Ryzen 3 Quad Core</option>
+            <option value="Ryzen 9 Octa Core">Ryzen 9 Octa Core</option>
+            <option value="Core i3">Core i3</option>
+            <option value="Ryzen 5 Hexa Core">Ryzen 5 Hexa Core</option>
+            <option value="Ryzen 5 Quad Core">Ryzen 5 Quad Core</option>
+            <option value="Ryzen 7 Hexa Core">Ryzen 7 Hexa Core</option>
+            <option value="Ryzen 7 Quad Core">Ryzen 7 Quad Core</option>
+            <option value="Pentium Quad Core">Pentium Quad Core</option>
+            <option value="Celeron Quad Core">Celeron Quad Core</option>
+            <option value="Snapdragon 7c Gen 2">Snapdragon 7c Gen 2</option>
+            <option value="Ryzen 5 Dual Core">Ryzen 5 Dual Core</option>
+            <option value="Ryzen 3 Dual Core">Ryzen 3 Dual Core</option>
+            <option value="Dual Core">Dual Core</option>
+            <option value="Ryzen 5 Octa Core">Ryzen 5 Octa Core</option>
+            <option value="M1 Pro">M1 Pro</option>
+            <option value="Ryzen 3 Hexa Core">Ryzen 3 Hexa Core</option>
+            <option value="APU Dual Core A6">APU Dual Core A6</option>
+            <option value="MediaTek Kompanio 500">MediaTek Kompanio 500</option>
+            <option value="M1">M1</option>
+            <option value="APU Dual Core A9">APU Dual Core A9</option>
+            <option value="Hexa Core i5">Hexa Core i5</option>
+            <option value="Octa Core i7">Octa Core i7</option>
+        </select>
+        <br><br>
+        
+        <label for="ram">RAM:</label>
+        <select name="ram" id="ram">
+            <option value="">Select RAM</option>
+            <option value="4 GB">4 GB</option>
+            <option value="8 GB">8 GB</option>
+            <option value="16 GB">16 GB</option>
+            <option value="32 GB">32 GB</option>
+        </select>
+        <br><br>
+        
+        <label for="storage_capacity">Storage Capacity:</label>
+        <select name="storage_capacity" id="storage_capacity">
+            <option value="">Select Storage Capacity</option>
+            <option value="32 GB">32 GB</option>
+            <option value="64 GB">64 GB</option>
+            <option value="128 GB">128 GB</option>
+            <option value="256 GB">256 GB</option>
+            <option value="512 GB">512 GB</option>
+            <option value="1 TB">1 TB</option>
+            <option value="2 TB">2 TB</option>
+        </select>
+        <br><br>
+        
+        <label for="storage_type">Storage Type:</label>
+        <select name="storage_type" id="storage_type">
+            <option value="">Select Storage Type</option>
+            <option value="HDD">HDD</option>
+            <option value="SSD">SSD</option>
+            <option value="EMMC">EMMC</option>
+        </select>
+        <br><br>
+        
+        <label for="price_min">Price (Min):</label>
+        <input type="number" name="price_min" id="price_min">
+        <br><br>
+        
+        <label for="price_max">Price (Max):</label>
+        <input type="number" name="price_max" id="price_max">
+        <br><br>
+        
+        <button type="submit">Filter</button>
+    </form>
+</body>
+</html>

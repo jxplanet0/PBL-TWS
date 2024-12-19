@@ -1,0 +1,44 @@
+body {
+    background-color: #353885; 
+  }
+  .login-container {
+    padding: 1rem; 
+    margin-top: -100px;
+  }
+  .login-container img.logo {
+    width: 200px; 
+    height: 200px; 
+  }
+  .login-container img {
+    width: 30px; 
+    height: 25px;
+  }
+  .login-container input {
+    margin-bottom: 20px;
+    color: white; 
+    background-color: black; 
+    border-color: white; 
+  }
+  .divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .signup-container {
+    padding: 1rem; 
+    margin-top: -100px;
+    }
+  .signup-container img.logo {
+    width: 200px; 
+    height: 200px;
+    margin-bottom: 10px; 
+  }
+  .signup-container img {
+    width: 30px; 
+    height: 25px;
+  }
+  .signup-container input {
+    margin-bottom: 20px;
+    color: white; 
+    background-color: black; 
+    border-color: white; 
+  }
